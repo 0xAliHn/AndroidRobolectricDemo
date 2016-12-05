@@ -6,7 +6,7 @@ Add test dependencies on assertj-android and Robolectric to your module's build.
   
     testCompile 'com.squareup.assertj:assertj-android:1.1.0'
     testCompile 'org.robolectric:robolectric:3.0'
-```
+
 
 # How to Create your unit test in src/test/java/.myapplication/MyActivityTest.java:
 
