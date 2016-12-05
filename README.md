@@ -8,7 +8,8 @@ Add test dependencies on assertj-android and Robolectric to your module's build.
     testCompile 'org.robolectric:robolectric:3.0'
 
 
-# How to Create your unit test in src/test/java/.myapplication/MyActivityTest.java:
+### How to Create your unit test 
+-> in src/test/java/.myapplication/MyActivityTest.java:
 
 @RunWith(RobolectricGradleTestRunner.class)
 @Config(constants = BuildConfig.class, sdk = 21)
@@ -36,7 +37,7 @@ public class MyActivityTest {
 
 }
 
-# How to run Test:
+### How to run Test:
 1.  Select "Unit Tests" under "Build Variants"
 
 2.  Update default JUnit working directory. Select *Run/Debug Configurations*, then *Defaults*, then *JUnit*, then *Configurations* tab, then *Working directory*, and finally *MODULE_DIR*.: ![default JUnit working directory](readme_images/junit_default_working_dir.png)
